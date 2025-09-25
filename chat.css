@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'honk';
+    src: url(./fonts/Honk-Regular-VariableFont_MORF\,SHLN.ttf);
+}
+
+@media(max-width:800px) {
+    .responsejs {
+        width: 50% !important;
+    }
+}
+
+@media(max-width:400px) {
+    .responsejs {
+        width: 100% !important;
+    }
+
+    .stylejs {
+        width: auto !important;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+
+}
+
+#empty {
+    width: 80%;
+    overflow-y: auto;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+input {
+    width: 75%;
+    height: 10%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 10px;
+    border: none;
+    background-color: #0808080f;
+    outline: none;
+}
+
+.inp-cont {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+}
+
+.inp-cont button {
+    position: absolute;
+    right: 15%;
+    bottom: 3%;
+    /* border: none; */
+    border: 2px solid #00D061;
+    background-color: #00D061;
+    border-radius: 100%;
+    padding: 10px;
+
+}
+
+.stylejs {
+    background-color: #00D061;
+    align-self: flex-end;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 40px;
+    ;
+}
+
+.responsejs {
+    background-color: #00D061;
+    align-self: flex-start;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.btn-sendjs {
+    flex-direction: row;
+    display: flex;
+
+}
+
+#btn-dl {
+    position: absolute;
+    top: 3%;
+    left: 10%;
+}
+
+.mode-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #00D061;
+
+}
+
+.mode-btn i {
+    color: white;
+}
+
+.txt-cent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+}
+.txt-cent h2{
+    margin-bottom: 15%;
+    /* font-family: 'honk'; */
+}
+.txt-cent img {
+    vertical-align: bottom;
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    transform: scale3d(1.5, 1.5, 1.5);
+    width: 50%;
+    color: blue;
+}
