@@ -66,21 +66,39 @@ input {
 
 .inp-cont {
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-
+    justify-content: center;
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    z-index: 10;
 }
-
+.inp-cont input{
+      flex: 1;
+    padding: 35px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f0f0f0;
+    outline: none;
+    font-size: 1rem;
+}
 .inp-cont button {
     position: absolute;
     right: 15%;
-    bottom: 3%;
+    bottom: 100%;
     /* border: none; */
-    border: 2px solid #00D061;
     background-color: #00D061;
-    border-radius: 100%;
     padding: 10px;
-
+    border: 2px solid #00D061;
+    border-radius: 50%;
+    padding: 12px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .stylejs {
@@ -149,5 +167,4 @@ input {
     left: 0;
     transform: scale3d(1.5, 1.5, 1.5);
     width: 50%;
-    color: blue;
 }
