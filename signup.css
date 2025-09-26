@@ -51,7 +51,7 @@
 
 .inner-box {
     width: 80%;
-    height: 90%;
+    height: 90vh;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px white;
@@ -91,7 +91,7 @@
 
 .inner-box .sign-btn {
     width: 80%;
-    height: 10vh;
+    height: 10%;
     border-radius: 20px;
     color: white;
     border: none;
