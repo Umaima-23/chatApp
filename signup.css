@@ -128,3 +128,28 @@
     border: none;
     color: white;
 }
+.passDiv{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    position: relative;
+}
+.passDiv input{
+    height: 100%;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.passDiv button.icon-eye {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    transform: translateY(-50%);
+    height: 24px;
+    width: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    /* color: #555; */
+}

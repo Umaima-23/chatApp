@@ -9,11 +9,11 @@
         width: 100%;
     }
 
-    .left .icon-eye {
+    /* .left .icon-eye {
         position: absolute;
         top: 48%;
         right: 8px;
-    }
+    } */
 }
 *{
     padding: 0;
@@ -104,9 +104,9 @@
      box-shadow: 0px 0px 8px white; 
 }
 .icon-eye{
-    position: absolute;
-    left: 45%;
-    top: 55%;
+     /* position: absolute;
+    left: 10px; */
+    /*top: 55%; */
     background-color: transparent; 
     border: none;
     color: white;
@@ -120,4 +120,32 @@
 #password{
     position: relative;
     padding-right: 35px;
+}
+.passDiv{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    position: relative;
+}
+.passDiv input{
+    height: 100%;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.passDiv button.icon-eye {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    transform: translateY(-50%);
+    height: 24px;
+    width: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    /* color: #555; */
+}
+.passDiv button.icon-eye {
+    z-index: 1;
 }
