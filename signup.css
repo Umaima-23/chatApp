@@ -51,7 +51,7 @@
 
 .inner-box {
     width: 80%;
-    height: 90vh;
+    height: auto;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px white;
@@ -70,12 +70,14 @@
     margin-bottom: 20px;
 }
 
-.inner-box input {
+.inner-box input ,
+.passDiv input{
     background-color: transparent;
-    width: 80%;
+    width: 100%;
+    max-width: 500px;
     margin-top: 10px;
-    height: 10%;
-    padding: 10px;
+    height: 50px;
+    padding: 10px 15px;
     box-shadow: 0px 0px 10px white;
     color: white;
     border-radius: 10px;
@@ -91,7 +93,8 @@
 
 .inner-box .sign-btn {
     width: 80%;
-    height: 10%;
+    max-width: 500px;
+    height: 50px;
     border-radius: 20px;
     color: white;
     border: none;
@@ -119,37 +122,23 @@
     position: relative;
     padding-right: 35px;
 }
-
-.icon-eye {
-    position: fixed;
-    right: 15%;
-    top: 53%;
-    background-color: transparent;
-    border: none;
-    color: white;
-}
 .passDiv{
-    width: 80%;
-    height: 10%;
-    display: flex;
+    width: 100%;
+    max-width: 500px;
+    /* display: flex; */
     position: relative;
 }
-.passDiv input{
-    height: 100%;
-    width: 100%;
-    padding-right: 30px;
-}
-
 .passDiv button.icon-eye {
     position: absolute;
     right: 10px;
-    top: 30px;
+    top: 50%;
     transform: translateY(-50%);
     height: 24px;
     width: 24px;
     border: none;
     background: none;
     cursor: pointer;
+    color: white;
     padding: 0;
     /* color: #555; */
 }
